@@ -1,14 +1,15 @@
-/* Color white #ffffff, rgba(255,255,255,.6)
-title-color #212121 
+/* title-color #212121 
 accent-color #2196F3
 text-color #757575
 background-main #F5F5F5
-background-footer #2F303A*/
+background-footer #2F303A
+background-OurTeam #F5F4FA */
 :root {
     --accent-color: #2196F3;
     --logo-studio-header: #000000;
     --logo-studio-footer: #ffffff;
     --title-color: #212121;
+    --text-color: #757575;
     --background-main: #f5f5f5;
     --background-footer: #2F303A;
     --background-hero: #2F303A;
@@ -16,6 +17,7 @@ background-footer #2F303A*/
 body {
     background-color: var(--background-main);
     font-family: 'Roboto', sans-serif;
+    color: var(--title-color);
 }
 .list {
     list-style: none;
@@ -29,7 +31,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .logo-web {
@@ -42,7 +44,7 @@ body {
 .site-nav a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
@@ -57,9 +59,9 @@ body {
 .phone {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575
+    color: var(--text-color)
 }
 .mail:hover, 
 .mail:focus, 
@@ -74,7 +76,7 @@ body {
 .title-hero {
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -85,42 +87,38 @@ body {
     height: 50px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     color: #ffffff;
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 /* styles our team */
 .our-team {
-    background-color: #F5F4FA;
+    background-color: #f4f5fa;
 }
 /* styles feature */
 .title-section {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
 }
 .subtitle {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--title-color);
 }
 .text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 /* Our team */
 .employee, .career {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em; 
 }
@@ -129,8 +127,7 @@ body {
     color: var(--title-color);
 }
 .career {
-    font-weight: 400;
-    color: #757575;
+    color: var(--text-color);
 }
 /* styles footer */
 .footer {
@@ -143,7 +140,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .address {
@@ -164,10 +161,10 @@ color: var(--accent-color);
 .button-filter {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    cursor: pointer;
 }
 .button-filter:hover, 
 .button-filter:focus {
@@ -175,17 +172,14 @@ color: var(--accent-color);
     color: #ffffff;
 }
 .title-portfolio {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--title-color);
 }
 .text-portfolio {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
  
