@@ -1,0 +1,151 @@
+/* Color white #FFFFFF, rgba(255,255,255,.6)
+title-color #212121 
+accent-color #2196F3
+text-color #757575
+color-background-main #F5F5F5
+color-background-hero #2F303A*/
+:root {
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --color-background-hero: #2F303A;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* styles logo */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-web {color: var(--accent-color);}
+.logo-studio-header {color:#000000}
+.site-nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+/* styles navigation */
+.site-nav a:hover {
+    color: var(--accent-color);
+}
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+/* styles contacts */
+.mail, .phone {
+    color: #757575
+}
+.mail:hover, .mail:focus, .phone:hover, .phone:focus {
+    color: var(--accent-color);
+}
+/* styles hero */
+.hero {
+    background-color: var(--color-background-hero);
+}
+.title-hero {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;;
+}
+.btn-order {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* styles feature */
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Our team */
+.employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.career {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* styles footer */
+.footer {
+    background-color: var(--color-background-hero);
+}
+.logo-studio-footer {
+    color: #ffffff;
+}
+.address {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.mail-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.phone-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+ 
